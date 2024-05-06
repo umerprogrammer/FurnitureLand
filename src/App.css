@@ -1,38 +1,174 @@
-.App {
-  text-align: center;
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/******** Top Discount *******/
+.main-discount{
+  width: 100%;
+  height: 20px;
+  padding-top: 3px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.main-discount h6{
+  font-size: 12px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+/******** Show Carosusel Banner *******/
+
+.carousel-image{
+  height: 400px !important;
+  width: 100% !important;
+}
+
+.image-logo{
+  width: 70px;
+  height: 50px;
+}
+
+.nav-item:hover{
+  border-bottom: 3px solid #ccc;
+}
+
+
+/******** Top Main Categories *******/
+
+.category-main{
+  margin-top: -35px;  
+  
+}
+.category-banner{
+  border: 1px solid #ccc;
+  background-color: #FFFFFD;
+  border-radius: 4px;
+  padding: 10px;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 100px;
+  height: 50px;
+
+}
+.category-banner h5{
+  font-size: 10px;
+}
+.category-banner img{
+  width: 25px;
+  height: 35px;
+
 }
 
-.App-link {
-  color: #61dafb;
+/******** Show Text in Carousel  *******/
+
+/*.image-container{
+  /* position: relative;
+  display: inline-block; 
+  
+}
+ .image-container img{
+  display: block;
+  width: 100%;
+  height: auto;
+} */
+.overlay-text{
+ position: absolute; 
+ top:40%;
+ left: 50%; 
+ color: #000; 
+ font-size: 15px; 
+ text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.button-shopnow{
+  margin-top: 15px !important;
+  border:1px solid #000 !important;
+  border-radius: 20px !important;
+  font-size: 12px !important; 
+} 
+
+
+/******** My Card  *******/
+
+.mycard{
+  width: 300px;
+}
+.cardbody{
+  padding:  10px 5px;
+}
+.cardrating{
+  display: flex;
+  justify-content: space-between;
+}
+.cardItemName{
+  font-size: 15px;
+}
+
+
+
+/******** choose color  *******/
+
+.item-color-choose{
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+}
+
+/******** Blog Image  *******/
+
+.blog-image{
+  width: 100%;
+  object-fit: fill;
+}
+
+
+
+
+
+
+/********* Font Size Class**********/
+
+.fs-10{
+  font-size: 10px;
+}
+
+.fs-11{
+  font-size: 11px;
+}
+.fs-12{
+  font-size: 12px;
+}
+.fs-13{
+  font-size: 13px;
+}
+.fs-14{
+  font-size: 14px;
+}
+.fs-15{
+  font-size: 15px;
+}
+.fs-16{
+  font-size: 16px;
+}
+.fs-10{
+  font-size: 10px;
+}
+.fs-20{
+  font-size: 20px;
+}
+.fs-21{
+  font-size: 21px;
+}
+.fs-22{
+  font-size: 22px;
+}
+.fs-23{
+  font-size: 23px;
+}
+.fs-24{
+  font-size: 24px;
+}
+.fs-25{
+  font-size: 25px;
 }
